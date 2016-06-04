@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add-Course</title>
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../stylesheets/spacelab-theme.css">
+    <script src="../libs/jquery/jquery-2.1.3.js"></script>
+    <script src="../libs/bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Courses</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/add-course">Add Course <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Top 10 Courses</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/logout"><%=user.username%> - Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<form action="/courses/add-course" class="form-horizontal" method="post">
+    <fieldset class="col-md-6">
+        <legend><h3>Add-Course</h3></legend>
+        <div class="form-group">
+            <label for="title" class="col-lg-2 control-label">Title</label>
+
+            <div class="col-lg-10">
+                <input type="text" class="form-control" id="title" name="title" placeholder="Title" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="lector" class="col-lg-2 control-label">Lector</label>
+
+            <div class="col-lg-10">
+                <input type="text" class="form-control" id="lector" name="lector" placeholder="Lector" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="mainCharacters" class="col-lg-2 control-label">Main Characters:</label>
+
+            <div class="col-lg-10">
+                <input type="text" class="form-control" id="mainCharacters" name="mainCharacters" placeholder="Main Characters" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="major" class="col-lg-2 control-label">Major:</label>
+
+            <div class="col-lg-10">
+                <input type="text" class="form-control" id="major" name="major" placeholder="Major" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="year" class="col-lg-2 control-label">Year:</label>
+
+            <div class="col-lg-10">
+                <input type="date" class="form-control" id="year" name="year" placeholder="Year" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <input type="submit" class="btn btn-primary" value="Add Course">
+            </div>
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>
