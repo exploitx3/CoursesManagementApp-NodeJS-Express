@@ -16,4 +16,4 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 
-public/stylesheets/* linguist-vendored
+public/* linguist-vendored
