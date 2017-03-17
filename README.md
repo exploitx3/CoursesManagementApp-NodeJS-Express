@@ -1,3 +1,5 @@
 # CoursesManagementApp-NodeJS-Express
 http://courses-xtechapps.rhcloud.com
- [embed]https://drive.google.com/uc?export=download&id=0B13fgyATXUYzTVZzdWZVenBXZWVuNUJVOTFCTUZRQ19nZ0hv[/embed]
+
+# Project Requirements
+https://github.com/exploitx3/CoursesManagementApp-NodeJS-Express/blob/master/CourseProject.pdf
