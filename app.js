@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var passport = require('passport');
 var session = require('express-session');
 
-var port = 5000;
+var port = 80;
 
 var mongoUrl = 'mongodb://localhost:27017/coursesApp';
 var indexRoutes = require('./src/routes/index')(mongoUrl);
