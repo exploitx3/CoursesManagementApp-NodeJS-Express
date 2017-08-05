@@ -4,4 +4,4 @@ if [ ! -z "$DEPLOYMENT_GROUP_NAME" ]; then
 fi
 
 cd ~/node
-pm2 start ../app.js -n www -i 0
+pm2 start app.js -n www -i 0
