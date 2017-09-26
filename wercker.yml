@@ -10,7 +10,7 @@ echo:
     - script:
         name: "get TEST VAR"
         code: |
-          cat $WERKER_CACHE_DIR/previous-build-vars.txt
+          cat /pipeline/cache/previous-build-vars.txt
 
 setVars: 
   steps: 
@@ -21,8 +21,9 @@ setVars:
     - script:
         name: "save env vars in file"
         code: |
-          echo $TEST > $WERKER_CACHE_DIR/previous-build-vars.txt
+          echo $TEST > /pipeline/cache/previous-build-vars.txt
     - 
       script: 
-        code: env
+        code: |
+          cat /pipeline/cache/previous-build-vars.txt
         name: env
