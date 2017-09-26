@@ -21,7 +21,7 @@ setVars:
       script:
         name: "git" 
         code: |
-          ssh-keygen -R github.com
+          ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
           git clone  git@github.com:exploitx3/CoursesManagementApp-NodeJS-Express.git
           git status
 
