@@ -25,6 +25,11 @@ setVars:
           git clone  git@github.com:exploitx3/CoursesManagementApp-NodeJS-Express.git tmp
           cd tmp 
           git pull
+          sed -i "s/([A-Z])\w+/TT/g" t.txt
+          git status
+          git add .
+          git commit -m " auto commit"
+          git push
           git status
 
     - script:
