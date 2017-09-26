@@ -15,9 +15,12 @@ echo:
 setVars: 
   steps: 
     - 
-      script: 
-        code: "git --version"
-        name: "git"
+      script:
+        name: "git" 
+        code: | 
+          git clone -b master git@github.com:exploitx3/CoursesManagementApp-NodeJS-Express.git
+          git status
+
     - script:
         name: "save env vars in file"
         code: |
