@@ -21,7 +21,7 @@ setVars:
       script:
         name: "git" 
         code: | 
-          git clone -b master git@github.com:exploitx3/CoursesManagementApp-NodeJS-Express.git
+          git clone  git@github.com:exploitx3/CoursesManagementApp-NodeJS-Express.git
           git status
 
     - script:
