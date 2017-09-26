@@ -1,0 +1,19 @@
+box: node:4.5.0
+setVar:
+  steps:
+    - script:
+        name: var
+        code: |
+          export TEST=TESTasdf
+    
+    - script:
+	name: output vars
+	code: |
+	  env
+	
+echo:
+    - script:
+        name: output TEST
+        code: |-
+	  echo `$TEST`	
+
