@@ -15,7 +15,7 @@ echo:
 setVars: 
   steps:
     - add-ssh-key:
-      keyname: ME
+      keyname: WERCKER
  
     - 
       script:
