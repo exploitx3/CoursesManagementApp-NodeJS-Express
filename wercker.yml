@@ -27,3 +27,4 @@ setVars:
         code: |
           ls -laR /pipeline/
         name: env
+    - internal/store-container
