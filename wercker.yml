@@ -28,6 +28,7 @@ setVars:
           ls -laR /pipeline/
         name: env
     - internal/shell:
+        name: shell
         cmd: /bin/bash  #defaults to /bin/bash
         code: |
           # some code to automatically run in your shell session
