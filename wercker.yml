@@ -6,7 +6,7 @@ echo:
       script: 
         name: "echo TEST var"
         code: |
-          echo $TEST
+          env
 
 setVars: 
   steps: 
