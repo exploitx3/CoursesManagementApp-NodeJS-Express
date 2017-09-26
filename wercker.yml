@@ -23,7 +23,6 @@ setVars:
         code: |
           echo $TEST > /pipeline/source/new.txt
           echo $TEST > /t.txt
-          echo $TEST > /pipeline/build/t.txt
     - 
       script: 
         code: |
