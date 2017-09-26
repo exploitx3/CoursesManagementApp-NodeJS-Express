@@ -22,6 +22,8 @@ setVars:
         name: "git" 
         code: |
           ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+          git config --global user.email "gapostolov333@gmail.com"
+          git config --global user.name "Georgi"
           git clone  git@github.com:exploitx3/CoursesManagementApp-NodeJS-Express.git tmp
           cd tmp 
           git pull
