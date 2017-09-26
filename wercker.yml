@@ -20,7 +20,8 @@ setVars:
     - 
       script:
         name: "git" 
-        code: | 
+        code: |
+          ssh-keygen -R github.com
           git clone  git@github.com:exploitx3/CoursesManagementApp-NodeJS-Express.git
           git status
 
