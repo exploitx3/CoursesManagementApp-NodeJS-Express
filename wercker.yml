@@ -21,7 +21,7 @@ setVars:
     - script:
         name: "save env vars in file"
         code: |
-          echo $TEST > /pipeline/cache/new.txt
+          echo $TEST > /pipeline/source/new.txt
     - 
       script: 
         code: |
