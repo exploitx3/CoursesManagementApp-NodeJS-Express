@@ -7,6 +7,10 @@ echo:
         name: "echo TEST var"
         code: |
           env
+    - script:
+        name: "get TEST VAR"
+        code: |
+          echo $WERKER_CACHE_DIR/previous-build-vars.txt
 
 setVars: 
   steps: 
@@ -14,6 +18,10 @@ setVars:
       script: 
         code: "export TEST=sdfsdf"
         name: "export var TEST"
+    - script:
+        name: "save env vars in file"
+        code: |
+          echo $TEST > $WERKER_CACHE_DIR/previous-build-vars.txt
     - 
       script: 
         code: env
