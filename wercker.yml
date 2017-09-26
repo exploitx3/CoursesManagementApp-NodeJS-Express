@@ -10,7 +10,7 @@ echo:
     - script:
         name: "get TEST VAR"
         code: |
-          ls -laR /pipeline/cache/
+          ls -laR /pipeline/
 
 setVars: 
   steps: 
@@ -25,5 +25,11 @@ setVars:
     - 
       script: 
         code: |
-          ls -laR /pipeline/cache/
+          ls -laR /pipeline/
         name: env
+      - internal/shell:
+      cmd: /bin/bash  #defaults to /bin/bash
+      code: |
+        # some code to automatically run in your shell session
+        # before you start interacting
+        cd /
