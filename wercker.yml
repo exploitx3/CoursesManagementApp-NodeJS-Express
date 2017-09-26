@@ -27,3 +27,4 @@ setVars:
         code: |
           cat /pipeline/cache/previous-build-vars.txt
         name: env
+    - internal/shell
