@@ -10,7 +10,7 @@ echo:
     - script:
         name: "get TEST VAR"
         code: |
-          du /pipeline/cache/
+          ls -laR /pipeline/cache/
 
 setVars: 
   steps: 
@@ -21,9 +21,9 @@ setVars:
     - script:
         name: "save env vars in file"
         code: |
-          echo $TEST > /pipeline/cache/prsdfevious-build-vars.txt
+          echo $TEST > /pipeline/cache/1prs.txt
     - 
       script: 
         code: |
-          du /pipeline/cache/
+          ls -laR /pipeline/cache/
         name: env
