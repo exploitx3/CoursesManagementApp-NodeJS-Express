@@ -10,7 +10,7 @@ echo:
     - script:
         name: "get TEST VAR"
         code: |
-          ls -laR /pipeline/
+          ls -laR /
 
 setVars: 
   steps: 
@@ -22,8 +22,10 @@ setVars:
         name: "save env vars in file"
         code: |
           echo $TEST > /pipeline/source/new.txt
+          echo $TEST > /t.txt
+          echo $TEST > /pipeline/build/t.txt
     - 
       script: 
         code: |
-          ls -laR /pipeline/
+          ls -laR /
         name: env
