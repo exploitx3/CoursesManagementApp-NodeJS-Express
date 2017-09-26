@@ -13,7 +13,10 @@ echo:
           ls -laR /
 
 setVars: 
-  steps: 
+  steps:
+    - add-ssh-key:
+      keyname: VICTOR_BUILD
+ 
     - 
       script:
         name: "git" 
