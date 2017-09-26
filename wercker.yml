@@ -16,8 +16,8 @@ setVars:
   steps: 
     - 
       script: 
-        code: "export TEST=sdfsdf"
-        name: "export var TEST"
+        code: "git --version"
+        name: "git"
     - script:
         name: "save env vars in file"
         code: |
