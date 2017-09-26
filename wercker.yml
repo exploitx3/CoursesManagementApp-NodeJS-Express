@@ -4,8 +4,10 @@ echo:
   steps: 
     - 
       script: 
-        code: "echo `$TEST`"
-        name: "echo TEST var "
+        name: "echo TEST var"
+        code: |
+          echo $TEST
+
 setVars: 
   steps: 
     - 
