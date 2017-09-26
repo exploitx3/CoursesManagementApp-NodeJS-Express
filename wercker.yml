@@ -10,7 +10,7 @@ echo:
     - script:
         name: "get TEST VAR"
         code: |
-          echo $WERKER_CACHE_DIR/previous-build-vars.txt
+          cat $WERKER_CACHE_DIR/previous-build-vars.txt
 
 setVars: 
   steps: 
