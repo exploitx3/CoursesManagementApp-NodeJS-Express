@@ -21,16 +21,9 @@ setVars:
     - script:
         name: "save env vars in file"
         code: |
-          echo $TEST > /pipeline/cache/1prs.txt
+          echo $TEST > /pipeline/cache/new.txt
     - 
       script: 
         code: |
           ls -laR /pipeline/
         name: env
-    - internal/shell:
-        name: shell
-        cmd: /bin/bash  #defaults to /bin/bash
-        code: |
-          # some code to automatically run in your shell session
-          # before you start interacting
-          cd /
