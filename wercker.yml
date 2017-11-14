@@ -12,6 +12,14 @@ echo:
         code: |
           ls -laR /
 
+pushDocker:
+  steps:
+    - internal/docker-push:
+          username: gapostolov
+          password: exploitxaA1
+          repository: gapostolov/course-repo
+          tag: $WERCKER_GIT_COMMIT
+          cmd: "/bin/bash"
 setVars: 
   steps:
     - add-ssh-key:
