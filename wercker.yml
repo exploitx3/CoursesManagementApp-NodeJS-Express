@@ -18,7 +18,7 @@ pushDocker:
           username: gapostolov
           password: exploitxaA1
           repository: gapostolov/course-repo
-          registry: https://registry.hub.docker.com/v1/repositories/gapostolov/course-repo/
+          registry: https://registry.hub.docker.com/v2/repositories/gapostolov/course-repo/
           tag: $WERCKER_GIT_COMMIT
           cmd: "/bin/bash"
 setVars: 
