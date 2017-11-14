@@ -16,7 +16,7 @@ pushDocker:
   steps:
     - internal/docker-push:
           username: gapostolov
-          password: exploitxaA1
+          password: 123321aA
           repository: gapostolov/course-repo
           registry: https://registry.hub.docker.com/v2
           tag: $WERCKER_GIT_COMMIT
