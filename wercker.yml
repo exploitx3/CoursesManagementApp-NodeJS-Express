@@ -18,22 +18,23 @@ pushDocker:
           username: gapostolov
           password: exploitxaA1
           repository: gapostolov/course-repo
+          registry: https://registry.hub.docker.com/v1/repositories/gapostolov/course-repo/
           tag: $WERCKER_GIT_COMMIT
           cmd: "/bin/bash"
 setVars: 
   steps:
     - add-ssh-key:
       keyname: WERCKER
- 
-    - 
+
+    -
       script:
-        name: "git" 
+        name: "git"
         code: |
           ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
           git config --global user.email "gapostolov333@gmail.com"
           git config --global user.name "Georgi"
           git clone  git@github.com:exploitx3/CoursesManagementApp-NodeJS-Express.git tmp
-          cd tmp 
+          cd tmp
           git pull
           sed -i "s/([A-Z])\w+/TT/g" t.txt
           git status
@@ -47,8 +48,8 @@ setVars:
         code: |
           echo $TEST > /pipeline/source/new.txt
           echo $TEST > /t.txt
-    - 
-      script: 
+    -
+      script:
         code: |
           ls -laR /
         name: env
