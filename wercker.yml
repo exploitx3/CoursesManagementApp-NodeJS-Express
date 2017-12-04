@@ -11,7 +11,13 @@ echo:
         name: "get TEST VAR"
         code: |
           ls -laR /
-
+trigger:
+  steps:
+    - petrica/trigger-build:
+          pipeline-id: 5a0b0df38538a30100a0b484
+          token: cce6179937475369a260d0b6ff5785343ba001a5ba29aa91409ec8767cc9cad7
+          branch: master
+          message: custom trigger message
 pushDocker:
   steps:
     - internal/docker-push:
