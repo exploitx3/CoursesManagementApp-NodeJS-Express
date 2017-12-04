@@ -14,7 +14,7 @@ echo:
 build:
   steps:
     - npm-install
-    
+
 trigger:
   steps:
     - petrica/trigger-build:
@@ -22,16 +22,6 @@ trigger:
           token: cce6179937475369a260d0b6ff5785343ba001a5ba29aa91409ec8767cc9cad7
           branch: master
           message: custom trigger message
-pushDocker:
-  steps:
-    - internal/docker-push:
-          username: gapostolov
-          password: 123321aA
-          repository: gapostolov/course-repo
-          registry: https://registry.hub.docker.com/v2
-          tag: $WERCKER_GIT_COMMIT
-          cmd: "/bin/bash"
-setVars: 
   steps:
     - add-ssh-key:
       keyname: WERCKER
