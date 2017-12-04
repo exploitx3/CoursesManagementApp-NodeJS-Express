@@ -11,6 +11,10 @@ echo:
         name: "get TEST VAR"
         code: |
           ls -laR /
+build:
+  steps:
+    - npm-install
+    
 trigger:
   steps:
     - petrica/trigger-build:
