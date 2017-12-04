@@ -15,6 +15,16 @@ build:
   steps:
     - npm-install
 
+secondBuild:
+  steps:
+    - npm-install
+
+noCacheInstall:
+  steps:
+    - script:
+        name: "npm install"
+        code: |
+          npm install
 trigger:
   steps:
     - petrica/trigger-build:
