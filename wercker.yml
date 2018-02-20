@@ -24,7 +24,7 @@ dockerBuild:
     - script:
         name: "build dockerfile"
         code: |
-          $COMMAND
+          bash -c '$COMMAND'
 
 noCacheInstall:
   steps:
