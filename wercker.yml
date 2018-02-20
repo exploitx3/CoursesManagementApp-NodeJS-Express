@@ -19,6 +19,13 @@ secondBuild:
   steps:
     - npm-install
 
+dockerBuild:
+  steps:
+    - script:
+        name: "build dockerfile"
+        code: |
+          docker build . -t test
+
 noCacheInstall:
   steps:
     - script:
