@@ -13,7 +13,10 @@ echo:
           ls -laR /
 build:
   steps:
-    - npm-install
+    - edgecaseadmin/install-aws-cli:
+            key: $AWS_KEY
+            secret: $AWS_SECRET
+            region: $AWS_REGION
 
 secondBuild:
   steps:
