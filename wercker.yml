@@ -87,3 +87,11 @@ trigger:
         code: |
           ls -laR /
         name: env
+
+follow:
+  steps:
+    command-timeout: 30
+    - script:
+            name: "trigger"
+            code: |
+              node create-release-branches.js
