@@ -17,7 +17,11 @@ build:
     - script:
             name: "test"
             code: |
-              sleep 10
+              echo "test"
+              sleep 3
+              clear
+              sleep 5
+
     - script:
             name: "test"
             code: |
