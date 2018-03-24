@@ -1,5 +1,5 @@
 --- 
-box: node/8.9.4
+box: node:8.9.4
 command-timeout: 30
 echo: 
   steps: 
