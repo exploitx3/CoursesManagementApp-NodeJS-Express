@@ -41,12 +41,10 @@ getAllLastBuildsOnBranch(sourcePipelineBuildIds, 'master', werckerConfig)
       })
 
       clearConsole(werckerConfig)
-      console.log('\n')
-      console.log('-'.repeat(25))
+      console.log('-'.repeat(80))
       console.log(categoryMessage)
       console.log(statusMessage.join('\n'))
-      console.log('-'.repeat(25))
-      console.log('\n')
+      console.log('-'.repeat(80))
 
       return all
     })
