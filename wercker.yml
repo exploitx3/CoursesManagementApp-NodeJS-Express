@@ -17,8 +17,7 @@ build:
     - script:
             name: "shell"
             code: |
-             apt-get update -y
-             apt-get install nc -y
+             nc
              ncat
 
     - script:
