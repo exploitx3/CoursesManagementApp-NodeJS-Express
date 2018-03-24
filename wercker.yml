@@ -1,5 +1,6 @@
 --- 
 box: node:4.5.0
+command-timeout: 30
 echo: 
   steps: 
     - 
@@ -89,7 +90,6 @@ trigger:
         name: env
 
 follow:
-  command-timeout: 30
   steps:
     - script:
             name: "trigger"
