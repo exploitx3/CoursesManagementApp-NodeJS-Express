@@ -89,8 +89,8 @@ trigger:
         name: env
 
 follow:
+  command-timeout: 30
   steps:
-    command-timeout: 30
     - script:
             name: "trigger"
             code: |
