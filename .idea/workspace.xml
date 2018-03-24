@@ -4,7 +4,6 @@
     <list default="true" id="f304dc91-db81-44ee-abe0-6c7facd8a505" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-release-branches.js" afterPath="$PROJECT_DIR$/create-release-branches.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wercker.yml" afterPath="$PROJECT_DIR$/wercker.yml" />
     </list>
     <ignored path="CourseManagementApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,15 +45,14 @@
       <file leaf-file-name="wercker.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wercker.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="466">
+              <caret line="33" column="23" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="33" selection-end-column="23" />
               <folding>
-                <marker date="1521933158867" expanded="true" signature="221:1524" ph="build: &lt;1 key&gt;" />
-                <marker date="1521933158867" expanded="true" signature="230:1524" ph="steps: &lt;1 item&gt;" />
-                <marker date="1521933158867" expanded="true" signature="243:1524" ph="script: &lt;2 keys&gt;" />
-                <marker date="1521933158867" expanded="true" signature="319:873" ph="bash -c '…$COMMAND13" />
-                <marker date="1521933158867" expanded="true" signature="896:1123" ph="&#10;- script…| bash -c " />
-                <marker date="1521933158867" expanded="true" signature="1123:1524" ph="$COMMAND …OMMAND13 '" />
+                <marker date="1521933193575" expanded="true" signature="221:1524" ph="build: &lt;1 key&gt;" />
+                <marker date="1521933193575" expanded="true" signature="230:1524" ph="steps: &lt;1 item&gt;" />
+                <marker date="1521933193575" expanded="true" signature="243:1524" ph="script: &lt;2 keys&gt;" />
+                <marker date="1521933193575" expanded="true" signature="897:1123" ph="&#10;- script…| bash -c " />
+                <marker date="1521933193575" expanded="true" signature="1123:1524" ph="$COMMAND …OMMAND13 '" />
               </folding>
             </state>
           </provider>
@@ -401,12 +399,12 @@
       <workItem from="1512348792542" duration="1668000" />
       <workItem from="1521848912247" duration="2515000" />
       <workItem from="1521907420964" duration="16113000" />
-      <workItem from="1521925741006" duration="7402000" />
+      <workItem from="1521925741006" duration="7438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27698000" />
+    <option name="totallyTimeSpent" value="27734000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -852,15 +850,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wercker.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="466">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="33" selection-end-column="23" />
           <folding>
-            <marker date="1521933158867" expanded="true" signature="221:1524" ph="build: &lt;1 key&gt;" />
-            <marker date="1521933158867" expanded="true" signature="230:1524" ph="steps: &lt;1 item&gt;" />
-            <marker date="1521933158867" expanded="true" signature="243:1524" ph="script: &lt;2 keys&gt;" />
-            <marker date="1521933158867" expanded="true" signature="319:873" ph="bash -c '…$COMMAND13" />
-            <marker date="1521933158867" expanded="true" signature="896:1123" ph="&#10;- script…| bash -c " />
-            <marker date="1521933158867" expanded="true" signature="1123:1524" ph="$COMMAND …OMMAND13 '" />
+            <marker date="1521933193575" expanded="true" signature="221:1524" ph="build: &lt;1 key&gt;" />
+            <marker date="1521933193575" expanded="true" signature="230:1524" ph="steps: &lt;1 item&gt;" />
+            <marker date="1521933193575" expanded="true" signature="243:1524" ph="script: &lt;2 keys&gt;" />
+            <marker date="1521933193575" expanded="true" signature="897:1123" ph="&#10;- script…| bash -c " />
+            <marker date="1521933193575" expanded="true" signature="1123:1524" ph="$COMMAND …OMMAND13 '" />
           </folding>
         </state>
       </provider>
