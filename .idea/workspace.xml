@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wercker.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wercker.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wercker.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="105" column="45" lean-forward="true" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
+            <state relative-caret-position="70">
+              <caret line="101" column="17" lean-forward="true" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -63,33 +63,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create-release-branches.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="create-release-branches.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/create-release-branches.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state relative-caret-position="107">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
-                <marker date="1521930186258" expanded="true" signature="3228:3469" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="3403:3407" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="3413:3467" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="3575:4369" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="3735:4271" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="3863:4266" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="3891:4171" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="3959:4076" ph="{&quot;pipelineId&quot;: createBranchPipelineIds.pipeline...}" />
-                <marker date="1521930186258" expanded="true" signature="4095:4163" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="4200:4259" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="4452:5421" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="4572:5270" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="4613:5263" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="4642:4981" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="4712:4815" ph="{&quot;pipelineId&quot;: value...}" />
-                <marker date="1521930186258" expanded="true" signature="4899:4971" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="5006:5254" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="5109:5187" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="5312:5350" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="5370:5418" ph="{...}" />
-                <marker date="1521930186258" expanded="true" signature="5424:6349" ph="//..." />
+                <marker date="1521930822550" expanded="true" signature="3228:3469" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="3403:3407" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="3413:3467" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="3575:4369" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="3735:4271" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="3863:4266" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="3891:4171" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="3959:4076" ph="{&quot;pipelineId&quot;: createBranchPipelineIds.pipeline...}" />
+                <marker date="1521930822550" expanded="true" signature="4095:4163" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="4200:4259" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="4452:5421" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="4572:5270" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="4613:5263" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="4642:4981" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="4712:4815" ph="{&quot;pipelineId&quot;: value...}" />
+                <marker date="1521930822550" expanded="true" signature="4899:4971" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="5006:5254" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="5109:5187" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="5312:5350" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="5370:5418" ph="{...}" />
+                <marker date="1521930822550" expanded="true" signature="5424:6349" ph="//..." />
               </folding>
             </state>
           </provider>
@@ -163,6 +163,7 @@
       <find>npm</find>
       <find>build</find>
       <find>clear</find>
+      <find>follow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,8 +203,8 @@
         <option value="$PROJECT_DIR$/src/routes/coursesRoutes.js" />
         <option value="$PROJECT_DIR$/WerckerCli.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/create-release-branches.js" />
         <option value="$PROJECT_DIR$/wercker.yml" />
+        <option value="$PROJECT_DIR$/create-release-branches.js" />
       </list>
     </option>
   </component>
@@ -393,12 +394,12 @@
       <workItem from="1512348792542" duration="1668000" />
       <workItem from="1521848912247" duration="2515000" />
       <workItem from="1521907420964" duration="16113000" />
-      <workItem from="1521925741006" duration="4900000" />
+      <workItem from="1521925741006" duration="5067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25196000" />
+    <option name="totallyTimeSpent" value="25363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -796,10 +797,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/coursesController.js">
+    <entry file="file://$PROJECT_DIR$/wercker.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="70">
+          <caret line="101" column="17" lean-forward="true" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -812,41 +813,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create-release-branches.js">
+    <entry file="file://$PROJECT_DIR$/src/controllers/coursesController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-          <folding>
-            <marker date="1521930186258" expanded="true" signature="3228:3469" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="3403:3407" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="3413:3467" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="3575:4369" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="3735:4271" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="3863:4266" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="3891:4171" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="3959:4076" ph="{&quot;pipelineId&quot;: createBranchPipelineIds.pipeline...}" />
-            <marker date="1521930186258" expanded="true" signature="4095:4163" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="4200:4259" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="4452:5421" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="4572:5270" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="4613:5263" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="4642:4981" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="4712:4815" ph="{&quot;pipelineId&quot;: value...}" />
-            <marker date="1521930186258" expanded="true" signature="4899:4971" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="5006:5254" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="5109:5187" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="5312:5350" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="5370:5418" ph="{...}" />
-            <marker date="1521930186258" expanded="true" signature="5424:6349" ph="//..." />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wercker.yml">
+    <entry file="file://$PROJECT_DIR$/create-release-branches.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="105" column="45" lean-forward="true" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="107">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1521930822550" expanded="true" signature="3228:3469" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="3403:3407" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="3413:3467" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="3575:4369" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="3735:4271" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="3863:4266" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="3891:4171" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="3959:4076" ph="{&quot;pipelineId&quot;: createBranchPipelineIds.pipeline...}" />
+            <marker date="1521930822550" expanded="true" signature="4095:4163" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="4200:4259" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="4452:5421" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="4572:5270" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="4613:5263" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="4642:4981" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="4712:4815" ph="{&quot;pipelineId&quot;: value...}" />
+            <marker date="1521930822550" expanded="true" signature="4899:4971" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="5006:5254" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="5109:5187" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="5312:5350" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="5370:5418" ph="{...}" />
+            <marker date="1521930822550" expanded="true" signature="5424:6349" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>

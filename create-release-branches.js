@@ -33,7 +33,7 @@ getAllLastBuildsOnBranch(sourcePipelineBuildIds, 'master', werckerConfig)
     return getStatusForRunningPipelines(werckerConfig, triggeredPipelines)
     .then(all => {
       let statusMessage = []
-      let categoriesLength = 20 || 10
+      let categoriesLength = 15 || 10
       let categoryMessage = `Name ${' '.repeat(categoriesLength - 5)}|Status ${' '.repeat(categoriesLength - 7)}|Result ${' '.repeat(categoriesLength - 7)}|Message ${' '.repeat(categoriesLength - 8)}|Progress ${' '.repeat(categoriesLength - 9)}|`
 
       all.forEach(status => {
