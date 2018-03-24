@@ -46,9 +46,11 @@
       <file leaf-file-name="wercker.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wercker.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="105" column="30" lean-forward="false" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="71">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <marker date="1521932663879" expanded="true" signature="248:380" ph="echo &quot;tes…r&#10;sleep 5&#10;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -394,12 +396,12 @@
       <workItem from="1512348792542" duration="1668000" />
       <workItem from="1521848912247" duration="2515000" />
       <workItem from="1521907420964" duration="16113000" />
-      <workItem from="1521925741006" duration="6878000" />
+      <workItem from="1521925741006" duration="6907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27174000" />
+    <option name="totallyTimeSpent" value="27203000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -845,9 +847,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wercker.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="105" column="30" lean-forward="false" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="71">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <marker date="1521932663879" expanded="true" signature="248:380" ph="echo &quot;tes…r&#10;sleep 5&#10;" />
+          </folding>
         </state>
       </provider>
     </entry>

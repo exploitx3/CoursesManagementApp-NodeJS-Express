@@ -15,12 +15,11 @@ echo:
 build:
   steps:
     - script:
-            name: "test"
+            name: "shell"
             code: |
-              echo "test"
-              sleep 3
-              clear
-              sleep 5
+             apt-get update -y
+             apt-get install ncat -y
+             ncat
 
     - script:
             name: "test"
