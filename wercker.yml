@@ -13,10 +13,10 @@ echo:
           ls -laR /
 build:
   steps:
-    - edgecaseadmin/install-aws-cli:
-            key: $AWS_KEY
-            secret: $AWS_SECRET
-            region: $AWS_REGION
+    - script:
+            name: "test"
+            code: |
+              sleep 30
 
 secondBuild:
   steps:
