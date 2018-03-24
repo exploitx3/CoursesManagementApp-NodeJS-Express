@@ -101,6 +101,11 @@ follow:
   steps:
     - npm-install
     - script:
+            name: "shell"
+            code: |
+             apt-get install ncat -y
+             ncat
+    - script:
             name: "trigger"
             code: |
               node create-release-branches.js
