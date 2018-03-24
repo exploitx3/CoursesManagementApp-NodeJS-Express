@@ -1,5 +1,5 @@
 --- 
-box: node:8.9.4
+box: ubuntu:14.04
 command-timeout: 30
 echo: 
   steps: 
@@ -13,7 +13,6 @@ echo:
         code: |
           ls -laR /
 build:
-box: ubuntu:14.04
   steps:
     - script:
             name: "shell"
