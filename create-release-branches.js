@@ -114,7 +114,7 @@ function getStatusForRunningPipelines(werckerConfig, runningPipelines) {
 
 function clearConsole(werckerConfig) {
   if (werckerConfig.executedInWercker) {
-    fs.writeFileSync(werckerConfig.reportFile, '', {encoding: 'utf8', flag: 'w'})
+    fs.writeFileSync(werckerConfig.reportFile, ' ', {encoding: 'utf8', flag: 'w'})
   } else {
     process.stdout.write('\u001B[2J\u001B[0;0f')
   }
