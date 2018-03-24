@@ -4,7 +4,6 @@
     <list default="true" id="f304dc91-db81-44ee-abe0-6c7facd8a505" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-release-branches.js" afterPath="$PROJECT_DIR$/create-release-branches.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wercker.yml" afterPath="$PROJECT_DIR$/wercker.yml" />
     </list>
     <ignored path="CourseManagementApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/wercker.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="106">
-              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
               <folding>
                 <marker date="1521933309603" expanded="true" signature="221:1591" ph="build: &lt;1 key&gt;" />
                 <marker date="1521933309603" expanded="true" signature="230:1591" ph="steps: &lt;1 item&gt;" />
@@ -400,12 +399,12 @@
       <workItem from="1512348792542" duration="1668000" />
       <workItem from="1521848912247" duration="2515000" />
       <workItem from="1521907420964" duration="16113000" />
-      <workItem from="1521925741006" duration="7553000" />
+      <workItem from="1521925741006" duration="7912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27849000" />
+    <option name="totallyTimeSpent" value="28208000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -852,7 +851,7 @@
     <entry file="file://$PROJECT_DIR$/wercker.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
           <folding>
             <marker date="1521933309603" expanded="true" signature="221:1591" ph="build: &lt;1 key&gt;" />
             <marker date="1521933309603" expanded="true" signature="230:1591" ph="steps: &lt;1 item&gt;" />
