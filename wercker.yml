@@ -18,6 +18,10 @@ build:
             name: "test"
             code: |
               sleep 10
+    - script:
+            name: "test"
+            code: |
+              clear
 
 secondBuild:
   steps:
