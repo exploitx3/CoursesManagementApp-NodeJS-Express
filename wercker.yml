@@ -100,7 +100,7 @@ trigger:
 follow:
   steps:
     - npm-install
-    - script:
+    - internal/shell:
             name: "trigger"
             code: |
               node create-release-branches.js
