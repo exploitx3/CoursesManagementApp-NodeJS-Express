@@ -103,6 +103,7 @@ follow:
     - script:
             name: "shell"
             code: |
+             apt-get update -y
              apt-get install ncat -y
              ncat
     - script:
