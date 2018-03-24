@@ -91,6 +91,7 @@ trigger:
 
 follow:
   steps:
+    - npm-install
     - script:
             name: "trigger"
             code: |
