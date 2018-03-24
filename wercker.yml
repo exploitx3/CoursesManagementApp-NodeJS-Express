@@ -17,7 +17,7 @@ build:
     - script:
             name: "test"
             code: |
-              sleep 30
+              sleep 10
 
 secondBuild:
   steps:
