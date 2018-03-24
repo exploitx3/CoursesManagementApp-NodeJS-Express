@@ -1,12 +1,14 @@
 'use strict'
 const request = require('request-promise')
 const qs = require('qs')
-let bb = require('bluebird')
+const fs = require('fs')
 
 
 const werckerConfig = {
   apiUrl: 'https://app.wercker.com',
-  token: 'e4a601d7500eaf85d7ba15caa73799db21cb2ab7aaf3d514b9b4f9c3489860d3'
+  token: 'e4a601d7500eaf85d7ba15caa73799db21cb2ab7aaf3d514b9b4f9c3489860d3',
+  reportFile: process.env.WERCKER_REPORT_MESSAGE_FILE,
+  executedInWercker: process.env.WERCKER || false
 }
 
 const createBranchPipelineIds = {
@@ -38,7 +40,7 @@ getAllLastBuildsOnBranch(sourcePipelineBuildIds, 'master', werckerConfig)
         statusMessage.push(`${formatString(status.name, categoriesLength)}|${formatString(status.status, categoriesLength)}|${formatString(status.result, categoriesLength)}|${formatString(status.message, categoriesLength)}|${formatString(status.progress, categoriesLength)}|`)
       })
 
-      clearConsole()
+      clearConsole(werckerConfig)
       console.log(categoryMessage)
       console.log(statusMessage.join('\n'))
 
@@ -46,7 +48,7 @@ getAllLastBuildsOnBranch(sourcePipelineBuildIds, 'master', werckerConfig)
     })
     .then(allStatuses => {
       if (
-        allStatuses.every((status) => status.status === "finished")
+        allStatuses.every((status) => status.status === 'finished')
       ) {
         clearInterval(timer)
       }
@@ -110,8 +112,12 @@ function getStatusForRunningPipelines(werckerConfig, runningPipelines) {
   return Promise.all(promises)
 }
 
-function clearConsole() {
-  process.stdout.write('\u001B[2J\u001B[0;0f')
+function clearConsole(werckerConfig) {
+  if (werckerConfig.executedInWercker) {
+    fs.writeFileSync(werckerConfig.reportFile, '', {encoding: 'utf8', flag: 'w'})
+  } else {
+    process.stdout.write('\u001B[2J\u001B[0;0f')
+  }
 }
 
 function triggerCreateReleaseBranchPipelines(werckerConfig, createBranchPipelineIds, lastDevelopBuilds) {
