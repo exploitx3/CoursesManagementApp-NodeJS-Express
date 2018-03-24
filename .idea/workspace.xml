@@ -46,14 +46,14 @@
       <file leaf-file-name="wercker.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wercker.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="162">
+              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding>
-                <marker date="1521934461821" expanded="true" signature="221:1658" ph="build: &lt;1 key&gt;" />
-                <marker date="1521934461821" expanded="true" signature="230:1658" ph="steps: &lt;1 item&gt;" />
-                <marker date="1521934461821" expanded="true" signature="243:1658" ph="script: &lt;2 keys&gt;" />
-                <marker date="1521934461821" expanded="true" signature="1031:1257" ph="&#10;- script…| bash -c " />
-                <marker date="1521934461821" expanded="true" signature="1257:1658" ph="$COMMAND …OMMAND13 '" />
+                <marker date="1521934786337" expanded="true" signature="221:962" ph="build: &lt;1 key&gt;" />
+                <marker date="1521934786337" expanded="true" signature="230:962" ph="steps: &lt;1 item&gt;" />
+                <marker date="1521934786337" expanded="true" signature="243:962" ph="script: &lt;2 keys&gt;" />
+                <marker date="1521934786337" expanded="true" signature="335:561" ph="&#10;- script…| bash -c " />
+                <marker date="1521934786337" expanded="true" signature="561:962" ph="$COMMAND …OMMAND13 '" />
               </folding>
             </state>
           </provider>
@@ -400,12 +400,12 @@
       <workItem from="1512348792542" duration="1668000" />
       <workItem from="1521848912247" duration="2515000" />
       <workItem from="1521907420964" duration="16113000" />
-      <workItem from="1521925741006" duration="8703000" />
+      <workItem from="1521925741006" duration="9027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28999000" />
+    <option name="totallyTimeSpent" value="29323000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -851,14 +851,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wercker.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="162">
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
-            <marker date="1521934461821" expanded="true" signature="221:1658" ph="build: &lt;1 key&gt;" />
-            <marker date="1521934461821" expanded="true" signature="230:1658" ph="steps: &lt;1 item&gt;" />
-            <marker date="1521934461821" expanded="true" signature="243:1658" ph="script: &lt;2 keys&gt;" />
-            <marker date="1521934461821" expanded="true" signature="1031:1257" ph="&#10;- script…| bash -c " />
-            <marker date="1521934461821" expanded="true" signature="1257:1658" ph="$COMMAND …OMMAND13 '" />
+            <marker date="1521934786337" expanded="true" signature="221:962" ph="build: &lt;1 key&gt;" />
+            <marker date="1521934786337" expanded="true" signature="230:962" ph="steps: &lt;1 item&gt;" />
+            <marker date="1521934786337" expanded="true" signature="243:962" ph="script: &lt;2 keys&gt;" />
+            <marker date="1521934786337" expanded="true" signature="335:561" ph="&#10;- script…| bash -c " />
+            <marker date="1521934786337" expanded="true" signature="561:962" ph="$COMMAND …OMMAND13 '" />
           </folding>
         </state>
       </provider>
