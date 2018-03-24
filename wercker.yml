@@ -1,5 +1,5 @@
 --- 
-box: ubuntu:14.04
+box: node/8.9.4
 command-timeout: 30
 echo: 
   steps: 
