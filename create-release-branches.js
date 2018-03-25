@@ -49,8 +49,9 @@ getAllLastBuildsOnBranch(sourcePipelineBuildIds, 'master', werckerConfig)
       if (
         all.every((status) => status.status === 'finished')
       ) {
-        clearInterval(timer)
-
+        setImmediate(() => {
+          clearInterval(timer)
+        })
       }
       return all
     })
