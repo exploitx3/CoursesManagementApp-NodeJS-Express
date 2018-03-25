@@ -46,14 +46,12 @@ getAllLastBuildsOnBranch(sourcePipelineBuildIds, 'master', werckerConfig)
       console.log(statusMessage.join('\n'))
       console.log('-'.repeat(80))
 
-      return all
-    })
-    .then(allStatuses => {
       if (
-        allStatuses.every((status) => status.status === 'finished')
+        all.every((status) => status.status === 'finished')
       ) {
         clearInterval(timer)
       }
+      return all
     })
   }, 1000)
 }).catch((err) => {
