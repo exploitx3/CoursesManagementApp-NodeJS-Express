@@ -1,6 +1,6 @@
 'use strict'
 const request = require('request-promise')
-const qs = require('qs')
+const qs = require('querystring')
 const fs = require('fs')
 
 
